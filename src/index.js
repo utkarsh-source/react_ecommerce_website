@@ -6,7 +6,7 @@ import {Provider} from 'react-redux'
 import store from './redux/store';
 
 ReactDOM.render(
-    <Router>
+    <Router basename="/react_ecommerce_website">
         <Provider store={store}>
              <App />
         </Provider>
